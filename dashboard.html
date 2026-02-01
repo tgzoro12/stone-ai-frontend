@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stone AI Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h2>Stone AI – Premium ✨</h2>
+
+  <textarea id="prompt" placeholder="Enter message prompt..."></textarea>
+  <select id="lang">
+    <option>English</option>
+    <option>Chinese</option>
+    <option>Hausa</option>
+  </select>
+
+  <button onclick="generate()">Generate</button>
+
+  <pre id="result"></pre>
+
+  <script src="js/guard.js"></script>
+  <script src="js/generator.js"></script>
+</body>
+</html>
