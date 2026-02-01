@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Stone AI</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stone AI Login</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-  <h2>Stone AI Generator</h2>
+<body class="center">
 
-  <textarea id="prompt" placeholder="Enter prompt"></textarea>
-  <br><br>
-  <button onclick="generate()">Generate</button>
+  <h2>Stone AI 🔐</h2>
 
-  <pre id="result"></pre>
+  <input id="email" placeholder="Email" />
+  <input id="password" type="password" placeholder="Password" />
 
-  <script src="js/generator.js"></script>
+  <button onclick="login()">Login</button>
+
+  <p id="msg"></p>
+
+  <script src="js/auth.js"></script>
 </body>
 </html>
